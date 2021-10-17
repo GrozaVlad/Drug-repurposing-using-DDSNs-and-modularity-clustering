@@ -1,0 +1,270 @@
+<drug type="small molecule" created="2017-09-22" updated="2017-09-22">
+  <drugbank-id primary="true">DB13912</drugbank-id>
+  <name>Coumermycin A1</name>
+  <description/>
+  <cas-number>4434-05-3</cas-number>
+  <unii>PCH9QZ1IIH</unii>
+  <average-mass>1110.092</average-mass>
+  <monoisotopic-mass>1109.37533932</monoisotopic-mass>
+  <state>solid</state>
+  <groups>
+    <group>experimental</group>
+  </groups>
+  <general-references>
+    <articles/>
+    <textbooks/>
+    <links/>
+  </general-references>
+  <synthesis-reference/>
+  <indication/>
+  <pharmacodynamics/>
+  <mechanism-of-action/>
+  <toxicity/>
+  <metabolism/>
+  <absorption/>
+  <half-life/>
+  <protein-binding/>
+  <route-of-elimination/>
+  <volume-of-distribution/>
+  <clearance/>
+  <salts/>
+  <synonyms>
+    <synonym language="" coder="INN">Coumamycin</synonym>
+    <synonym language="" coder="USAN">Coumermycin</synonym>
+    <synonym language="" coder="">Notomycin A1</synonym>
+  </synonyms>
+  <products/>
+  <international-brands/>
+  <mixtures/>
+  <packagers/>
+  <manufacturers/>
+  <prices/>
+  <categories>
+    <category>
+      <category>Antineoplastic Agents</category>
+      <mesh-id>D000970</mesh-id>
+    </category>
+    <category>
+      <category>Benzopyrans</category>
+      <mesh-id>D001578</mesh-id>
+    </category>
+    <category>
+      <category>Chemical Actions and Uses</category>
+      <mesh-id>D020164</mesh-id>
+    </category>
+    <category>
+      <category>Coumarins</category>
+      <mesh-id>D003374</mesh-id>
+    </category>
+    <category>
+      <category>Enzyme Inhibitors</category>
+      <mesh-id>D004791</mesh-id>
+    </category>
+    <category>
+      <category>Heterocyclic Compounds</category>
+      <mesh-id>D006571</mesh-id>
+    </category>
+    <category>
+      <category>Heterocyclic Compounds, 1-Ring</category>
+      <mesh-id>D006573</mesh-id>
+    </category>
+    <category>
+      <category>Heterocyclic Compounds, 2-Ring</category>
+      <mesh-id>D006574</mesh-id>
+    </category>
+    <category>
+      <category>Molecular Mechanisms of Pharmacological Action</category>
+      <mesh-id>D045504</mesh-id>
+    </category>
+    <category>
+      <category>Pharmacologic Actions</category>
+      <mesh-id>D020228</mesh-id>
+    </category>
+    <category>
+      <category>Pyrans</category>
+      <mesh-id>D011714</mesh-id>
+    </category>
+    <category>
+      <category>Therapeutic Uses</category>
+      <mesh-id>D045506</mesh-id>
+    </category>
+    <category>
+      <category>Topoisomerase II Inhibitors</category>
+      <mesh-id>D059005</mesh-id>
+    </category>
+    <category>
+      <category>Topoisomerase Inhibitors</category>
+      <mesh-id>D059003</mesh-id>
+    </category>
+  </categories>
+  <affected-organisms/>
+  <dosages/>
+  <atc-codes/>
+  <ahfs-codes/>
+  <pdb-entries/>
+  <patents/>
+  <food-interactions/>
+  <drug-interactions/>
+  <calculated-properties>
+    <property>
+      <kind>logP</kind>
+      <value>4.59</value>
+      <source>ALOGPS</source>
+    </property>
+    <property>
+      <kind>logS</kind>
+      <value>-5</value>
+      <source>ALOGPS</source>
+    </property>
+    <property>
+      <kind>Water Solubility</kind>
+      <value>1.11e-02 g/l</value>
+      <source>ALOGPS</source>
+    </property>
+    <property>
+      <kind>logP</kind>
+      <value>4.39</value>
+      <source>ChemAxon</source>
+    </property>
+    <property>
+      <kind>IUPAC Name</kind>
+      <value>(3S,4R,5S,6S)-5-hydroxy-6-[(4-hydroxy-3-{5-[(4-hydroxy-7-{[(2S,3S,4R,5S)-3-hydroxy-5-methoxy-6,6-dimethyl-4-(5-methyl-1H-pyrrole-2-carbonyloxy)oxan-2-yl]oxy}-8-methyl-2-oxo-2H-chromen-3-yl)carbamoyl]-4-methyl-1H-pyrrole-3-amido}-8-methyl-2-oxo-2H-chromen-7-yl)oxy]-3-methoxy-2,2-dimethyloxan-4-yl 5-methyl-1H-pyrrole-2-carboxylate</value>
+      <source>ChemAxon</source>
+    </property>
+    <property>
+      <kind>Traditional IUPAC Name</kind>
+      <value>(3S,4R,5S,6S)-5-hydroxy-6-[(4-hydroxy-3-{5-[(4-hydroxy-7-{[(2S,3S,4R,5S)-3-hydroxy-5-methoxy-6,6-dimethyl-4-(5-methyl-1H-pyrrole-2-carbonyloxy)oxan-2-yl]oxy}-8-methyl-2-oxochromen-3-yl)carbamoyl]-4-methyl-1H-pyrrole-3-amido}-8-methyl-2-oxochromen-7-yl)oxy]-3-methoxy-2,2-dimethyloxan-4-yl 5-methyl-1H-pyrrole-2-carboxylate</value>
+      <source>ChemAxon</source>
+    </property>
+    <property>
+      <kind>Molecular Weight</kind>
+      <value>1110.092</value>
+      <source>ChemAxon</source>
+    </property>
+    <property>
+      <kind>Monoisotopic Weight</kind>
+      <value>1109.37533932</value>
+      <source>ChemAxon</source>
+    </property>
+    <property>
+      <kind>SMILES</kind>
+      <value>CO[C@H]1[C@H](OC(=O)C2=CC=C(C)N2)[C@H](O)[C@@H](OC2=C(C)C3=C(C=C2)C(O)=C(NC(=O)C2=C(C)C(=CN2)C(=O)NC2=C(O)C4=C(OC2=O)C(C)=C(O[C@H]2OC(C)(C)[C@@H](OC)[C@H](OC(=O)C5=CC=C(C)N5)[C@@H]2O)C=C4)C(=O)O3)OC1(C)C</value>
+      <source>ChemAxon</source>
+    </property>
+    <property>
+      <kind>Molecular Formula</kind>
+      <value>C55H59N5O20</value>
+      <source>ChemAxon</source>
+    </property>
+    <property>
+      <kind>InChI</kind>
+      <value>InChI=1S/C55H59N5O20/c1-21-12-16-29(57-21)48(67)77-42-38(63)52(79-54(6,7)44(42)71-10)73-31-18-14-26-36(61)34(50(69)75-40(26)24(31)4)59-46(65)28-20-56-33(23(28)3)47(66)60-35-37(62)27-15-19-32(25(5)41(27)76-51(35)70)74-53-39(64)43(45(72-11)55(8,9)80-53)78-49(68)30-17-13-22(2)58-30/h12-20,38-39,42-45,52-53,56-58,61-64H,1-11H3,(H,59,65)(H,60,66)/t38-,39-,42+,43+,44-,45-,52-,53-/m0/s1</value>
+      <source>ChemAxon</source>
+    </property>
+    <property>
+      <kind>InChIKey</kind>
+      <value>WTIJXIZOODAMJT-IYKSDEDASA-N</value>
+      <source>ChemAxon</source>
+    </property>
+    <property>
+      <kind>Polar Surface Area (PSA)</kind>
+      <value>347.07</value>
+      <source>ChemAxon</source>
+    </property>
+    <property>
+      <kind>Refractivity</kind>
+      <value>281.22</value>
+      <source>ChemAxon</source>
+    </property>
+    <property>
+      <kind>Polarizability</kind>
+      <value>115.95</value>
+      <source>ChemAxon</source>
+    </property>
+    <property>
+      <kind>Rotatable Bond Count</kind>
+      <value>16</value>
+      <source>ChemAxon</source>
+    </property>
+    <property>
+      <kind>H Bond Acceptor Count</kind>
+      <value>16</value>
+      <source>ChemAxon</source>
+    </property>
+    <property>
+      <kind>H Bond Donor Count</kind>
+      <value>9</value>
+      <source>ChemAxon</source>
+    </property>
+    <property>
+      <kind>pKa (strongest acidic)</kind>
+      <value>5.21</value>
+      <source>ChemAxon</source>
+    </property>
+    <property>
+      <kind>pKa (strongest basic)</kind>
+      <value>-4</value>
+      <source>ChemAxon</source>
+    </property>
+    <property>
+      <kind>Physiological Charge</kind>
+      <value>-2</value>
+      <source>ChemAxon</source>
+    </property>
+    <property>
+      <kind>Number of Rings</kind>
+      <value>9</value>
+      <source>ChemAxon</source>
+    </property>
+    <property>
+      <kind>Bioavailability</kind>
+      <value>0</value>
+      <source>ChemAxon</source>
+    </property>
+    <property>
+      <kind>Rule of Five</kind>
+      <value>0</value>
+      <source>ChemAxon</source>
+    </property>
+    <property>
+      <kind>Ghose Filter</kind>
+      <value>0</value>
+      <source>ChemAxon</source>
+    </property>
+    <property>
+      <kind>MDDR-Like Rule</kind>
+      <value>1</value>
+      <source>ChemAxon</source>
+    </property>
+  </calculated-properties>
+  <experimental-properties/>
+  <external-identifiers>
+    <external-identifier>
+      <resource>ChemSpider</resource>
+      <identifier>23287305</identifier>
+    </external-identifier>
+    <external-identifier>
+      <resource>BindingDB</resource>
+      <identifier>50048490</identifier>
+    </external-identifier>
+    <external-identifier>
+      <resource>Wikipedia</resource>
+      <identifier>Coumermycin_A1</identifier>
+    </external-identifier>
+    <external-identifier>
+      <resource>ChEMBL</resource>
+      <identifier>CHEMBL389471</identifier>
+    </external-identifier>
+  </external-identifiers>
+  <external-links/>
+  <pathways/>
+  <reactions/>
+  <snp-effects/>
+  <snp-adverse-drug-reactions/>
+  <targets/>
+  <enzymes/>
+  <carriers/>
+  <transporters/>
+</drug>
+
+</drugbank>

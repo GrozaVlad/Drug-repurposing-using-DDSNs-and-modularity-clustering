@@ -1,0 +1,28 @@
+version: "3.3"
+
+services:
+    drugbank-db:
+        image: postgres:13.1
+        volumes:
+            - postgres-data:/var/lib/postgresql/data
+        restart: always
+        environment:
+            POSTGRES_USER: vlad
+            POSTGRES_PASSWORD: vlad
+            POSTGRES_DB: drugbank
+            POSTGRES_HOST: db
+        ports:
+            - 5433:5432
+        networks:
+            - drugbank    
+    drugbank-db-mongo:
+        image: mongo
+        volumes:
+            - mongo-data:/data/db
+        ports:
+            - 27017:27017    
+volumes:
+    postgres-data:
+    mongo-data:
+networks:
+    drugbank:
