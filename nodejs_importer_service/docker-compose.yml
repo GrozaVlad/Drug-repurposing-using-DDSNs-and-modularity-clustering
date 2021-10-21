@@ -7,8 +7,8 @@ services:
             - postgres-data:/var/lib/postgresql/data
         restart: always
         environment:
-            POSTGRES_USER: vlad
-            POSTGRES_PASSWORD: vlad
+            POSTGRES_USER: drugbank
+            POSTGRES_PASSWORD: drugbank
             POSTGRES_DB: drugbank
             POSTGRES_HOST: db
         ports:

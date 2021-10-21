@@ -1,13 +1,12 @@
 import psycopg2 as psycopg2
-from string import Template
 import pandas as pd
 import networkx as nx
 
 conn = psycopg2.connect(
     host="localhost",
     database="drugbank",
-    user="vlad",
-    password="vlad",
+    user="drugbank",
+    password="drugbank",
     port=5433)
 
 drugbanks = ['5.0.9']

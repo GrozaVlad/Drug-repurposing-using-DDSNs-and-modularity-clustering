@@ -181,15 +181,15 @@ function processXMLEntry() {
     genes: genes
   }
 }
-const database_names = ['3.0','4.1','4.2','4.3','4.5.0','5.0.0','5.0.1','5.0.2','5.0.3','5.0.4','5.0.5','5.0.6','5.0.7','5.0.8','5.0.9','5.0.10','5.1.0','5.1.8'];
 const geneActionTypes = [];
 
 async function processLineByLine() {
-  const connectionString = `postgres://vlad:vlad@localhost:5433/drugbank`
+  const filePath = process.argv[2];
+  const connectionString = `postgres://drugbank:drugbank@localhost:5433/drugbank`
   const client = new Client({connectionString});
   await client.connect();
-  const database = '5.0.9';
-    const fileStream = fs.createReadStream(`../Desktop/drugbanks/hyperion/${database}/drugbank.xml`);
+  const database = `${process.argv[3]}`;
+    const fileStream = fs.createReadStream(`${filePath}`);
     const logger = fs.createWriteStream('./temporary.xml', {
       flags: 'a'
     });
